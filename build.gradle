@@ -21,7 +21,7 @@ test {
         manifest {
             attributes(
                     'Class-Path': configurations.runtimeClasspath.files.collect { it.name }.join(' '),
-                    'Main-Class': 'com.galvanize.Application'
+                    'Main-Class': 'com.SWF.Application'
             )
         }
     }
